@@ -1,5 +1,28 @@
-import { createApp } from 'vue'
-import './style.css'
-import App from './App.vue'
+import '@/assets/style.css'
 
-createApp(App).mount('#app')
+import { createApp } from 'vue'
+import { createRouter, createWebHistory } from 'vue-router'
+
+import App from '@/App.vue'
+import Layout from '@/pages/Layout.vue'
+import TimeCalculator from '@/components/TimeCalculator/TimeCalculator.vue';
+
+const router = createRouter({
+    history: createWebHistory(),
+    routes: [
+        {
+            path:'/', 
+            name:'Layout', 
+            component: Layout
+        },
+        {
+            path:'/time-calculator', 
+            name:'TimeCalculator', 
+            component: TimeCalculator
+        }
+    ]
+})
+
+createApp(App)
+.use(router)
+.mount('#app')

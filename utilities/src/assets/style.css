@@ -61,8 +61,37 @@ button:focus-visible {
 #app {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0;
   text-align: center;
+  display: flex;
+  flex-flow: column;
+  flex: 1;
+  align-items: stretch;
+  justify-content: flex-start;
+  min-height: 100vh;
+}
+
+.nav-top{
+  background: #f1f1f1;
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+}
+.nav-top h1{
+  margin: 0;
+  font-size: 1.6em;
+} 
+
+.nav-top a{
+  margin-left: 1em;
+}
+
+.nav-top [class*=nav-top]{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (prefers-color-scheme: light) {

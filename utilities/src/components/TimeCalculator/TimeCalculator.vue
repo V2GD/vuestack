@@ -1,6 +1,6 @@
 <script setup>
-import TimeCalculatorForm from '../../components/TimeCalculator/TimeCalculatorForm.vue';
-import TimeCalculatorTotal from '../../components/TimeCalculator/TimeCalculatorTotal.vue';
+import TimeCalculatorForm from '@/components/TimeCalculator/TimeCalculatorForm.vue';
+import TimeCalculatorTotal from '@/components/TimeCalculator/TimeCalculatorTotal.vue';
 
 import { ref } from 'vue';
 
