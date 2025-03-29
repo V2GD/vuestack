@@ -112,44 +112,5 @@ function calculateHours() {
   margin: 0 0.5em;
 }
 
-.btn.btn-principal {
-  background: royalblue;
-  color: white;
-  border: 1px solid royalblue;
-}
 
-.btn.btn-secondary {
-  background: transparent;
-  color: royalblue;
-  border: 1px solid royalblue;
-}
-
-.btn-link {
-  display: flex;
-  width: 26px;
-  height: 26px;
-  border-radius: 100%;
-  justify-content: center;
-  align-items: center;
-  margin: 5px;
-  cursor: pointer;
-}
-
-.btn-link.btn-principal {
-  background: royalblue;
-  color: white;
-  border: 1px solid royalblue;
-}
-
-.btn-link.btn-secondary {
-  background: transparent;
-  color: royalblue;
-  border: 1px solid royalblue;
-}
-
-.btn-link[disabled='true'] {
-  background: lightgrey;
-  color: white;
-  border: 1px solid lightgrey;
-}
 </style>

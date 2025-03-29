@@ -71,6 +71,10 @@ button:focus-visible {
   min-height: 100vh;
 }
 
+.main-container{
+  padding: 1em;
+}
+
 .nav-top{
   background: #f1f1f1;
   display: flex;
@@ -92,6 +96,47 @@ button:focus-visible {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.btn.btn-principal {
+  background: royalblue;
+  color: white;
+  border: 1px solid royalblue;
+}
+
+.btn.btn-secondary {
+  background: transparent;
+  color: royalblue;
+  border: 1px solid royalblue;
+}
+
+.btn-link {
+  display: flex;
+  width: 26px;
+  height: 26px;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.btn-link.btn-principal {
+  background: royalblue;
+  color: white;
+  border: 1px solid royalblue;
+}
+
+.btn-link.btn-secondary {
+  background: transparent;
+  color: royalblue;
+  border: 1px solid royalblue;
+}
+
+.btn-link[disabled='true'] {
+  background: lightgrey;
+  color: white;
+  border: 1px solid lightgrey;
 }
 
 @media (prefers-color-scheme: light) {
