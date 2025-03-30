@@ -139,6 +139,20 @@ button:focus-visible {
   border: 1px solid lightgrey;
 }
 
+.btn.btn-principal[disabled]{
+  border-color: grey;
+  background-color: grey;
+  color : #fafafa;
+  cursor: initial;
+}
+
+.btn.btn-secondary[disabled]{
+  border-color: grey;
+  background-color: #fafafa;
+  color : grey;
+  cursor: initial;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

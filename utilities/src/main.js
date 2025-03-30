@@ -7,6 +7,7 @@ import App from '@/App.vue'
 import Layout from '@/pages/Layout.vue'
 import TimeCalculator from '@/components/TimeCalculator/TimeCalculator.vue';
 import PokeList from '@/components/PokeList/PokeList.vue';
+import Typing from '@/components/Typing/Typing.vue'
 
 const router = createRouter({
     history: createWebHistory(),
@@ -25,6 +26,11 @@ const router = createRouter({
             path:'/poke-list', 
             name:'PokeList', 
             component: PokeList
+        },
+        {
+            path:'/typing', 
+            name:'Typing', 
+            component: Typing
         }
     ]
 })

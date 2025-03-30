@@ -10,11 +10,11 @@ function getTotalTime(value) {
   let dateTimeStr = new Date(value);
   dateTimeStr =
     dateTimeStr.getUTCHours() +
-    ' hora ' +
+    ' horas ' +
     dateTimeStr.getUTCMinutes() +
     ' minutos ' +
     dateTimeStr.getUTCSeconds() +
-    ' seconds';
+    ' segundos';
 
   totalTime.value = dateTimeStr;
 }
