@@ -4,4 +4,5 @@
     <router-link to="/poke-list">Pokemón center</router-link>
     <router-link to="/typing">Typing</router-link>
     <router-link to="/pagination">Pagination</router-link>
+    <router-link to="/form">Form</router-link>
 </template>

@@ -9,6 +9,7 @@ import TimeCalculator from '@/components/TimeCalculator/TimeCalculator.vue';
 import PokeList from '@/components/PokeList/PokeList.vue';
 import Typing from '@/components/Typing/Typing.vue';
 import Pagination from '@/components/Pagination/Pagination.vue';
+import Form from '@/components/Form/Form.vue';
 
 const router = createRouter({
     history: createWebHistory(),
@@ -37,6 +38,11 @@ const router = createRouter({
             path:'/pagination',
             name: 'Pagination',
             component: Pagination
+        },
+        {
+            path:'/form',
+            name: 'Form',
+            component: Form
         }
     ]
 })
